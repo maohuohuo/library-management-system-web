@@ -1,9 +1,11 @@
 import styles from "./login.module.scss"
 import './login.less'
 import { useState } from "react"
-import { Button, Form, Input } from 'antd';
-
+import { Button, Form, Input, message } from 'antd';
+import { useNavigate } from "react-router-dom"
 const App: React.FC = () => {
+  let navigateTo = useNavigate();
+
   const [loginForm, setloginForm] = useState({
     username: undefined,
     password: undefined,
@@ -25,6 +27,9 @@ const App: React.FC = () => {
 
   const onLogin = async (values: any) => {
     console.log('Success:', values);
+    localStorage.setItem("lege-react-management-token", '1111');
+    message.success('登陆成功！')
+    navigateTo('/page1')
   };
 
   const onFinishFailed = (errorInfo: any) => {
