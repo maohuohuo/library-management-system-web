@@ -56,7 +56,7 @@
 
 "@ant-design/icons@^5.4.0":
   version "5.4.0"
-  resolved "https://registry.npmmirror.com/@ant-design/icons/-/icons-5.4.0.tgz#4bd8f335c68207cc06fe9943d164a81cdfcfbeac"
+  resolved "http://castle-npm.cp.hxdi.cn/@ant-design%2ficons/-/icons-5.4.0.tgz#4bd8f335c68207cc06fe9943d164a81cdfcfbeac"
   integrity sha512-QZbWC5xQYexCI5q4/fehSEkchJr5UGtvAJweT743qKUQQGs9IH2DehNLP49DJ3Ii9m9CijD2HN6fNy3WKhIFdA==
   dependencies:
     "@ant-design/colors" "^7.0.0"
